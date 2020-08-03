@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90205B4F2374A04F003310BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90205B4E2374A04F003310BA /* AppDelegate.swift */; };
+		90205B512374A04F003310BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90205B502374A04F003310BA /* ViewController.swift */; };
+		90205B532374A051003310BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90205B522374A051003310BA /* Assets.xcassets */; };
+		90205B562374A051003310BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90205B542374A051003310BA /* Main.storyboard */; };
+		90205B622374A051003310BA /* PresetInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90205B612374A051003310BA /* PresetInstallerTests.swift */; };
+		90205B6D2374A051003310BA /* PresetInstallerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90205B6C2374A051003310BA /* PresetInstallerUITests.swift */; };
+		90205B7B2374A0A3003310BA /* DEFAULTScom.apple.print.custompresets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90205B7A2374A0A3003310BA /* DEFAULTScom.apple.print.custompresets.plist */; };
+		90205B7D2374A0B5003310BA /* com.apple.print.custompresets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90205B7C2374A0B5003310BA /* com.apple.print.custompresets.plist */; };
+		90205B7F2374AC8C003310BA /* PresetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90205B7E2374AC8C003310BA /* PresetVC.swift */; };
+		90205B812375D11A003310BA /* Appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 90205B802375D11A003310BA /* Appicon.icns */; };
+		9058F3122375FF2200A852CE /* presetName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9058F3112375FF2200A852CE /* presetName.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90205B5E2374A051003310BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90205B432374A04F003310BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90205B4A2374A04F003310BA;
+			remoteInfo = PresetInstaller;
+		};
+		90205B692374A051003310BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90205B432374A04F003310BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90205B4A2374A04F003310BA;
+			remoteInfo = PresetInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90205B4B2374A04F003310BA /* PresetInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90205B4E2374A04F003310BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90205B502374A04F003310BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90205B522374A051003310BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90205B552374A051003310BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90205B572374A051003310BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90205B582374A051003310BA /* PresetInstaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PresetInstaller.entitlements; sourceTree = "<group>"; };
+		90205B5D2374A051003310BA /* PresetInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresetInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90205B612374A051003310BA /* PresetInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetInstallerTests.swift; sourceTree = "<group>"; };
+		90205B632374A051003310BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90205B682374A051003310BA /* PresetInstallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresetInstallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90205B6C2374A051003310BA /* PresetInstallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetInstallerUITests.swift; sourceTree = "<group>"; };
+		90205B6E2374A051003310BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90205B7A2374A0A3003310BA /* DEFAULTScom.apple.print.custompresets.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DEFAULTScom.apple.print.custompresets.plist; sourceTree = "<group>"; };
+		90205B7C2374A0B5003310BA /* com.apple.print.custompresets.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = com.apple.print.custompresets.plist; sourceTree = "<group>"; };
+		90205B7E2374AC8C003310BA /* PresetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetVC.swift; sourceTree = "<group>"; };
+		90205B802375D11A003310BA /* Appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Appicon.icns; sourceTree = "<group>"; };
+		9058F3112375FF2200A852CE /* presetName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = presetName.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90205B482374A04F003310BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B5A2374A051003310BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B652374A051003310BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90205B422374A04F003310BA = {
+			isa = PBXGroup;
+			children = (
+				90205B4D2374A04F003310BA /* PresetInstaller */,
+				90205B602374A051003310BA /* PresetInstallerTests */,
+				90205B6B2374A051003310BA /* PresetInstallerUITests */,
+				90205B4C2374A04F003310BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90205B4C2374A04F003310BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90205B4B2374A04F003310BA /* PresetInstaller.app */,
+				90205B5D2374A051003310BA /* PresetInstallerTests.xctest */,
+				90205B682374A051003310BA /* PresetInstallerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90205B4D2374A04F003310BA /* PresetInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				90205B7A2374A0A3003310BA /* DEFAULTScom.apple.print.custompresets.plist */,
+				90205B7C2374A0B5003310BA /* com.apple.print.custompresets.plist */,
+				9058F3112375FF2200A852CE /* presetName.txt */,
+				90205B4E2374A04F003310BA /* AppDelegate.swift */,
+				90205B502374A04F003310BA /* ViewController.swift */,
+				90205B7E2374AC8C003310BA /* PresetVC.swift */,
+				90205B522374A051003310BA /* Assets.xcassets */,
+				90205B802375D11A003310BA /* Appicon.icns */,
+				90205B542374A051003310BA /* Main.storyboard */,
+				90205B572374A051003310BA /* Info.plist */,
+				90205B582374A051003310BA /* PresetInstaller.entitlements */,
+			);
+			path = PresetInstaller;
+			sourceTree = "<group>";
+		};
+		90205B602374A051003310BA /* PresetInstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				90205B612374A051003310BA /* PresetInstallerTests.swift */,
+				90205B632374A051003310BA /* Info.plist */,
+			);
+			path = PresetInstallerTests;
+			sourceTree = "<group>";
+		};
+		90205B6B2374A051003310BA /* PresetInstallerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90205B6C2374A051003310BA /* PresetInstallerUITests.swift */,
+				90205B6E2374A051003310BA /* Info.plist */,
+			);
+			path = PresetInstallerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90205B4A2374A04F003310BA /* PresetInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90205B712374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstaller" */;
+			buildPhases = (
+				90205B472374A04F003310BA /* Sources */,
+				90205B482374A04F003310BA /* Frameworks */,
+				90205B492374A04F003310BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresetInstaller;
+			productName = PresetInstaller;
+			productReference = 90205B4B2374A04F003310BA /* PresetInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90205B5C2374A051003310BA /* PresetInstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90205B742374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstallerTests" */;
+			buildPhases = (
+				90205B592374A051003310BA /* Sources */,
+				90205B5A2374A051003310BA /* Frameworks */,
+				90205B5B2374A051003310BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90205B5F2374A051003310BA /* PBXTargetDependency */,
+			);
+			name = PresetInstallerTests;
+			productName = PresetInstallerTests;
+			productReference = 90205B5D2374A051003310BA /* PresetInstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90205B672374A051003310BA /* PresetInstallerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90205B772374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstallerUITests" */;
+			buildPhases = (
+				90205B642374A051003310BA /* Sources */,
+				90205B652374A051003310BA /* Frameworks */,
+				90205B662374A051003310BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90205B6A2374A051003310BA /* PBXTargetDependency */,
+			);
+			name = PresetInstallerUITests;
+			productName = PresetInstallerUITests;
+			productReference = 90205B682374A051003310BA /* PresetInstallerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90205B432374A04F003310BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Tyler Stiffler";
+				TargetAttributes = {
+					90205B4A2374A04F003310BA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					90205B5C2374A051003310BA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 90205B4A2374A04F003310BA;
+					};
+					90205B672374A051003310BA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 90205B4A2374A04F003310BA;
+					};
+				};
+			};
+			buildConfigurationList = 90205B462374A04F003310BA /* Build configuration list for PBXProject "PresetInstaller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90205B422374A04F003310BA;
+			productRefGroup = 90205B4C2374A04F003310BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90205B4A2374A04F003310BA /* PresetInstaller */,
+				90205B5C2374A051003310BA /* PresetInstallerTests */,
+				90205B672374A051003310BA /* PresetInstallerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90205B492374A04F003310BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90205B532374A051003310BA /* Assets.xcassets in Resources */,
+				90205B562374A051003310BA /* Main.storyboard in Resources */,
+				90205B7D2374A0B5003310BA /* com.apple.print.custompresets.plist in Resources */,
+				90205B7B2374A0A3003310BA /* DEFAULTScom.apple.print.custompresets.plist in Resources */,
+				9058F3122375FF2200A852CE /* presetName.txt in Resources */,
+				90205B812375D11A003310BA /* Appicon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B5B2374A051003310BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B662374A051003310BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90205B472374A04F003310BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90205B512374A04F003310BA /* ViewController.swift in Sources */,
+				90205B4F2374A04F003310BA /* AppDelegate.swift in Sources */,
+				90205B7F2374AC8C003310BA /* PresetVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B592374A051003310BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90205B622374A051003310BA /* PresetInstallerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90205B642374A051003310BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90205B6D2374A051003310BA /* PresetInstallerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90205B5F2374A051003310BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90205B4A2374A04F003310BA /* PresetInstaller */;
+			targetProxy = 90205B5E2374A051003310BA /* PBXContainerItemProxy */;
+		};
+		90205B6A2374A051003310BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90205B4A2374A04F003310BA /* PresetInstaller */;
+			targetProxy = 90205B692374A051003310BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90205B542374A051003310BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90205B552374A051003310BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90205B6F2374A051003310BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90205B702374A051003310BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		90205B722374A051003310BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PresetInstaller/PresetInstaller.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PresetInstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90205B732374A051003310BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PresetInstaller/PresetInstaller.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PresetInstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		90205B752374A051003310BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				INFOPLIST_FILE = PresetInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresetInstaller.app/Contents/MacOS/PresetInstaller";
+			};
+			name = Debug;
+		};
+		90205B762374A051003310BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				INFOPLIST_FILE = PresetInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresetInstaller.app/Contents/MacOS/PresetInstaller";
+			};
+			name = Release;
+		};
+		90205B782374A051003310BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				INFOPLIST_FILE = PresetInstallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PresetInstaller;
+			};
+			name = Debug;
+		};
+		90205B792374A051003310BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6Q85HX67J;
+				INFOPLIST_FILE = PresetInstallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greentbc.PresetInstallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PresetInstaller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90205B462374A04F003310BA /* Build configuration list for PBXProject "PresetInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90205B6F2374A051003310BA /* Debug */,
+				90205B702374A051003310BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90205B712374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90205B722374A051003310BA /* Debug */,
+				90205B732374A051003310BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90205B742374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90205B752374A051003310BA /* Debug */,
+				90205B762374A051003310BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90205B772374A051003310BA /* Build configuration list for PBXNativeTarget "PresetInstallerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90205B782374A051003310BA /* Debug */,
+				90205B792374A051003310BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90205B432374A04F003310BA /* Project object */;
+}
